@@ -12,6 +12,7 @@ nav {
   margin-right: 2%;
   font-size: 16px;
 }
+
 section p {
   font-size: 16px;
   color: darkred;
@@ -46,6 +47,8 @@ footer {
   font-size: 14px;
   margin-left: 4%;
   margin-right: 4%;
+  margin-top: 2%;
+  margin-bottom: 2%;
   font-weight: bold;
 }
 
@@ -63,17 +66,22 @@ figcaption {
   float: left;
   width: 50%;
   margin: 0;
-  
 }
 
 #figure2 {
   float: right;
   width: 50%;
   margin: 0;
-
 }
 
 #reset {
   float: none;
   clear: both;
+}
+
+ul {
+  color: darkred;
+  font-size: 16px;
+  margin-left: 6%;
+  margin-right: 6%;
 }
