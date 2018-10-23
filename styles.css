@@ -32,6 +32,7 @@ h1 {
   font-weight: bold;
   margin-left: 2%;
   margin-right: 2%;
+  padding: 1%;
 }
 
 h2 {
@@ -40,6 +41,7 @@ h2 {
   font-weight: bold;
   margin-left: 4%;
   margin-right: 4%;
+  padding-top: 2%;
 }
 
 footer {
@@ -66,12 +68,16 @@ figcaption {
   float: left;
   width: 50%;
   margin: 0;
+  padding-top: 4%;
+  padding-bottom: 2%;
 }
 
 #figure2 {
   float: right;
   width: 50%;
   margin: 0;
+  padding-top: 4%;
+  padding-bottom: 2%;
 }
 
 #reset {
@@ -84,4 +90,13 @@ ul {
   font-size: 16px;
   margin-left: 6%;
   margin-right: 6%;
+}
+
+aside {
+  font-size: 20px;
+  font-style: italic;
+  font-weight: bold;
+  color: darkred;
+  text-indent: 4%;
+  padding: 2%;
 }
