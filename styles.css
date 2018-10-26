@@ -1,10 +1,11 @@
 header {
-  font-size: 42px;
-  font-style: oblique;
-  margin-top: 4%;
-  margin-bottom: 4%;
-  margin-left: 2%;
-  margin-right: 2%;
+	font-size: 42px;
+	font-style: oblique;
+	margin-top: 4%;
+	margin-bottom: 4%;
+	margin-left: 2%;
+	margin-right: 2%;
+	color: black;
 }
 
 nav {
@@ -23,7 +24,7 @@ section p {
 }
 
 body {
-  background-color: lightgray;
+	background-color: lightgray;
 }
 
 h1 {
