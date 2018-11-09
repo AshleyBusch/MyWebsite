@@ -1,15 +1,21 @@
 header {
 	font-size: 42px;
 	font-style: oblique;
-	margin: 4%;
 	display: block;
-	
+	padding: 25px;
+	border-bottom-width: normal;
+	border-bottom-style: double;
 }
 
 nav {
-  margin-left: 2%;
-  margin-right: 2%;
+	padding-left: 20px;
+	padding-right: 20px;
+	padding-top: 10px;
+	padding-bottom: 10px;
   font-size: 16px;
+	word-spacing: 8px;
+	border-bottom-width: normal;
+	border-bottom-style: double;
 }
 
 section p {
@@ -65,18 +71,20 @@ figcaption {
 
 #figure1 {
   float: left;
-  width: 50%;
+  width: 48%;
   margin: 0;
   padding-top: 4%;
   padding-bottom: 2%;
+	padding-left: 2.5%;
 }
 
 #figure2 {
   float: right;
-  width: 50%;
+  width: 48%;
   margin: 0;
   padding-top: 4%;
   padding-bottom: 2%;
+	padding-right: 1.5%;
 }
 
 #reset {
@@ -97,5 +105,28 @@ aside {
   font-weight: bold;
   color: darkred;
   text-indent: 4%;
-  padding: 2%;
+  padding: 25px;
+}
+
+.center {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 60%;
+}
+
+#paragraph1 {
+	float: left;
+	width: 40%;
+	margin-right: 4%;
+}
+
+#figure3 {
+	float: right;
+	width: 46%;
+	margin: 0;
+	padding-top: 2.5%;
+	padding-right: 4%;
+}
+@media screen and (min-width:500px) and (max-width:700px){
 }
