@@ -3,8 +3,8 @@ header {
 	font-style: oblique;
 	display: block;
 	padding: 25px;
-	border-bottom-width: normal;
-	border-bottom-style: double;
+	color: white;
+	background-color: darkred;
 }
 
 nav {
@@ -14,17 +14,25 @@ nav {
 	padding-bottom: 10px;
   font-size: 16px;
 	word-spacing: 8px;
+	border-top-width: normal;
+	border-top-style: double;
 	border-bottom-width: normal;
 	border-bottom-style: double;
 }
 
+section {
+	background-color: lightgray;
+	border-color: darkred;
+	border-style: 
+}
+
 section p {
   font-size: 16px;
-  color: darkred;
   text-indent: 4%;
   margin-left: 6%;
   margin-right: 6%;
   margin-bottom: 2%;
+	color: darkred;
 }
 
 body {
@@ -90,10 +98,12 @@ figcaption {
 #reset {
   float: none;
   clear: both;
+	background-color: white;
 }
 
 ul {
   color: darkred;
+	background-color: lightgray;
   font-size: 16px;
   margin-left: 6%;
   margin-right: 6%;
@@ -106,6 +116,7 @@ aside {
   color: darkred;
   text-indent: 4%;
   padding: 25px;
+	background-color: lightgray;
 }
 
 .center {
@@ -130,7 +141,11 @@ aside {
 }
 
 div {
-	background-color: 
+	background-color: lightgray;
+	padding-top: 10px;
+	padding-bottom: 20px;
+	padding-left: 10px;
+	padding-right: 10px;
 }
 
 @media screen and (min-width:500px) and (max-width:700px){
