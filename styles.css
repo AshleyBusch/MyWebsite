@@ -60,6 +60,7 @@ footer {
   margin-top: 2%;
   margin-bottom: 2%;
   font-weight: bold;
+  class: center;
 }
 
 figcaption {
@@ -156,6 +157,134 @@ div {
 	border-width: thin;
 }
 
-@media screen and (min-width:0px) and (max-width:700px){
+@media screen and (min-width:700px) and (max-width:1200px){
+header {
+	font-size: 42px;
+	font-style: oblique;
+	display: block;
+	padding: 25px;
+	color: white;
+	background-color: darkred;
+}
+nav {
+	padding-left: 20px;
+	padding-right: 20px;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	font-size: 16px;
+	word-spacing: 8px;
+}
+section {
+
+}
+section p {
+	font-size: 16px;
+	text-indent: 4%;
+	margin-left: 6%;
+	margin-right: 6%;
+	margin-bottom: 2%;
+	color: darkred;
+	padding-bottom: 30px;
+}
+body {
+	background-color: lightgray;
+}
+h1 {
+	font-size: 28px;
+	color: darkred;
+	font-weight: bold;
+	margin-left: 2%;
+	margin-right: 2%;
+	padding: 1%;
+}
+h2 {
+	font-size: 24px;
+	color: darkred;
+	font-weight: bold;
+	margin-left: 4%;
+	margin-right: 4%;
+	padding-top: 2%;
+}
+figcaption {
+	color: black;
+	font-size: 16px;
+	font-weight: bold;
+}
+#section3 {
+	padding-bottom: 10px;
+}
+#figure1 {
+	float: left;
+	width: 48%;
+	margin: 0;
+	padding-top: 4%;
+	padding-bottom: 2%;
+	padding-left: 2.5%;
+}
+#figure2 {
+	float: right;
+	width: 48%;
+	margin: 0;
+	padding-top: 4%;
+	padding-bottom: 2%;
+	padding-right: 1.5%;
+}
+#reset {
+	float: none;
+	clear: both;
+	background-color: white;
+}
+ul {
+	color: darkred;
+	font-size: 16px;
+	margin-left: 6%;
+	margin-right: 6%;
+}
+aside {
+	font-size: 28px;
+	font-style: italic;
+	font-weight: bold;
+	color: darkred;
+	text-indent: 4%;
+	padding-top: 30px;
+	padding-bottom: 10px;
+	padding-left: 25px;
+	padding-right: 25px;
+}
+.center {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 60%;
+}
+#paragraph1 {
+	float: left;
+	width: 40%;
+	margin-right: 4%;
+}
+#figure3 {
+	float: right;
+	width: 46%;
+	margin: 0;
+	padding-top: 2.5%;
+	padding-right: 4%;
+}
+#figure4 {
+	float: left;
+	width: 46%;
+	margin: 2%;
+	margin-left: 4%;
+}
+#paragraph2 {
+	float: right;
+	width: 40%;
+	margin-left: 2%;
+}
+div {
+	background-color: white;
+	border-color: black;
+	border-style: solid;
+	border-width: thin;
+}
 	
 }
