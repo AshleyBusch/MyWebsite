@@ -16,18 +16,12 @@ nav {
 	word-spacing: 8px;
 }
 
-section {
-
-}
-
 section p {
   font-size: 16px;
   text-indent: 4%;
   margin-left: 6%;
   margin-right: 6%;
-  margin-bottom: 2%;
 	color: darkred;
-	padding-bottom: 30px;
 }
 
 body {
@@ -69,11 +63,11 @@ figcaption {
   font-weight: bold;
 }
 
-#section3 {
+#section2-3 {
   padding-bottom: 10px;
 }
 
-#figure1 {
+#figure2-1 {
   float: left;
   width: 48%;
   margin: 0;
@@ -82,7 +76,7 @@ figcaption {
 	padding-left: 2.5%;
 }
 
-#figure2 {
+#figure2-2 {
   float: right;
   width: 48%;
   margin: 0;
@@ -123,13 +117,20 @@ aside {
 	width: 60%;
 }
 
-#paragraph1 {
+#section2-5 {
 	float: left;
 	width: 40%;
+	margin-left: 2%;
+	margin-right: 2%;
+}
+
+#paragraph2-1 {
+	float: none;
+	width: 100%;
 	margin-right: 4%;
 }
 
-#figure3 {
+#figure2-3 {
 	float: right;
 	width: 46%;
 	margin: 0;
@@ -137,17 +138,48 @@ aside {
 	padding-right: 4%;
 }
 
-#figure4 {
-	float: left;
+#section3-2 {
+	float: right;
 	width: 46%;
-	margin: 2%;
-	margin-left: 4%;
+	margin: 0;
+	padding-right: 4%;
 }
 
-#paragraph2 {
+#figure3-1 {
+	float: left;
+	width: 46%;
+	margin: 0;
+	padding-left: 4%;
+	padding-top: 4%;
+}
+
+#article3-1 {
+	float: left;
+	width: 46%;
+	margin: 0;
+	padding-left: 4%;
+}
+
+#figure3-2 {
 	float: right;
-	width: 40%;
-	margin-left: 2%;
+	width: 46%;
+	margin: 0;
+	padding-right: 4%;
+	padding-top: 1%;
+}
+
+#figure3-3 {
+	float: left;
+	width: 46%;
+	margin: 0;
+	padding-left: 2%;
+}
+
+#article3-2 {
+	float: right;
+	width: 46%;
+	margin: 0;
+	padding-right: 4%;
 }
 
 div {
@@ -155,9 +187,41 @@ div {
 	border-color: black;
 	border-style: solid;
 	border-width: thin;
+	padding-bottom: 15px;
 }
 
-@media screen and (min-width:700px) and (max-width:1200px){
+#paragraph4-1 {
+	float: left;
+	width: 58%;
+	margin-right: none;
+}
+
+#figure4-1 {
+	float: right;
+	width: 20%;
+	margin 0%;
+	padding-right: 4%;
+}
+
+#paragraph4-2 {
+	float: right;
+	width: 64%;
+	margin: 0;
+	padding-right: 6%;
+}
+
+#figure4-2 {
+	float: left;
+	width: 20%;
+	margin: 0;
+	padding-left: 8%;
+}
+
+#bttlink {
+	margin-left: 6%;
+}
+
+@media screen and (min-width:650px) and (max-width:1100px){
 header {
 	font-size: 42px;
 	font-style: oblique;
@@ -174,9 +238,7 @@ nav {
 	font-size: 16px;
 	word-spacing: 8px;
 }
-section {
 
-}
 section p {
 	font-size: 16px;
 	text-indent: 4%;
@@ -184,7 +246,7 @@ section p {
 	margin-right: 6%;
 	margin-bottom: 2%;
 	color: darkred;
-	padding-bottom: 30px;
+	padding-bottom: 15px;
 }
 body {
 	background-color: lightgray;
@@ -210,10 +272,10 @@ figcaption {
 	font-size: 16px;
 	font-weight: bold;
 }
-#section3 {
+#section2-3 {
 	padding-bottom: 10px;
 }
-#figure1 {
+#figure2-1 {
 	float: left;
 	width: 48%;
 	margin: 0;
@@ -221,7 +283,7 @@ figcaption {
 	padding-bottom: 2%;
 	padding-left: 2.5%;
 }
-#figure2 {
+#figure2-2 {
 	float: right;
 	width: 48%;
 	margin: 0;
@@ -247,7 +309,7 @@ aside {
 	color: darkred;
 	text-indent: 4%;
 	padding-top: 30px;
-	padding-bottom: 10px;
+	padding-bottom: 5px;
 	padding-left: 25px;
 	padding-right: 25px;
 }
@@ -257,25 +319,73 @@ aside {
 	margin-right: auto;
 	width: 60%;
 }
-#paragraph1 {
+
+#section2-5 {
+	float: none;
+	width: 100%;
+	margin-right: 2%;
+}
+
+#paragraph2-1 {
 	float: left;
 	width: 40%;
-	margin-right: 4%;
+	margin-right: 2%;
 }
-#figure3 {
+
+#figure2-3 {
 	float: right;
 	width: 46%;
 	margin: 0;
 	padding-top: 2.5%;
 	padding-right: 4%;
 }
-#figure4 {
+
+#section3-2 {
+	float: none;
+	width: 100%;
+	margin: 0;
+	padding-right: 0%;
+}
+
+#figure3-1 {
+	float: none;
+	width: 86%;
+	margin: 0;
+	padding-left: 0%;
+	padding-top: 0%;
+	text-indent: 7%;
+}
+
+#article3-1 {
+	float: none;
+	width: 100%;
+	margin: 0;
+	padding-left: 0%;
+}
+
+#figure3-2 {
+	float: none;
+	width: 84%;
+	margin: 0;
+	padding-right: 0%;
+	padding-top: 0%;
+	text-indent: 8%;
+}
+
+#figure3-3 {
 	float: left;
 	width: 46%;
 	margin: 2%;
 	margin-left: 4%;
 }
-#paragraph2 {
+
+#article3-2 {
+	float: none;
+	width: 100%;
+	margin-left: 2%;
+}
+
+#paragraph3-3 {
 	float: right;
 	width: 40%;
 	margin-left: 2%;
@@ -285,6 +395,70 @@ div {
 	border-color: black;
 	border-style: solid;
 	border-width: thin;
+	padding-bottom: 10px;
 }
-	
+
+#paragraph4-1 {
+	float: none;
+	width: 90%;
+	margin-right: 4%;
+}
+
+#figure4-1 {
+	float: none;
+	width: 90%;
+	padding-right: none;
+	text-align: center;
+}
+
+#paragraph4-2 {
+	float: none;
+	width: 100%;
+	padding-right: 0%;
+}
+
+#figure4-2 {
+	float: none;
+	width: 90%;
+	padding-left: 0%;
+	text-align: center;
+}
+
+#bttlink {
+	margin-left: 6%;
+}
+
+}
+
+@media (min-width:0px) and (max-width:650px){
+header {
+	font-size: 42px;
+	font-style: oblique;
+	display: block;
+	padding: 25px;
+	color: white;
+	background-color: darkred;
+	text-align: center;
+}
+nav {
+	padding-left: 20px;
+	padding-right: 20px;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	font-size: 16px;
+	word-spacing: 8px;
+	font-weight: bold;
+	text-align: center;
+}
+footer {
+	color: black;
+	font-size: 14px;
+	margin-left: 4%;
+	margin-right: 4%;
+	margin-top: 2%;
+	margin-bottom: 2%;
+	font-weight: bold;
+	text-align: center;
+}
+
 }
