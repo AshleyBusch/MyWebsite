@@ -423,6 +423,7 @@ h2 {
 	padding-top: 2%;
 	text-align: center;
 }
+	
 aside {
 	font-size: 28px;
 	font-style: italic;
@@ -434,6 +435,160 @@ aside {
 	padding-left: 25px;
 	padding-right: 25px;
 	text-align: center;
+}
+	
+#figure2-1 {
+	float: none;
+	width: 96%;
+	margin: 0;
+	padding-top: 4%;
+	padding-bottom: 2%;
+	padding-left: 2%;
+	text-align: center;
+}
+	
+#figure2-2 {
+	float: none;
+	width: 88%;
+	margin: 0;
+	padding-top: 4%;
+	padding-bottom: 2%;
+	padding-left: 6%;
+	text-align: center;
+}
+	
+figcaption {
+	color: black;
+	font-size: 16px;
+	font-weight: bold;
+}
+	
+#paragraph2-0 {
+	text-align: center;	
+}	
+	
+#paragraph2-1 {
+	float: none;
+	width: 90%;
+	margin-right: 0%;
+}
+	
+#figure2-3 {
+	float: none;
+	width: 86%;
+	margin: 0;
+	padding-top: 2.5%;
+	padding-right: 0%;
+	padding-left: 7%;
+}
+	
+#section2-5 {
+	float: none;
+	width: 96%;
+	margin-left: 2%;
+	margin-right: 2%;
+}
+	
+#section3-2 {
+	float: none;
+	width: 96%;
+	margin: 0;
+	padding-right: 0%;
+	padding-left: 2%;
+}	
+	
+#figure3-1 {
+	float: none;
+	width: 84%;
+	margin: 0;
+	padding-left: 8%;
+	padding-top: 4%;
+}
+	
+#article3-1 {
+	float: none;
+	width: 96%;
+	margin: 0;
+	padding-left: 2%;
+}
+	
+#figure3-2 {
+	float: none;
+	width: 82%;
+	margin: 0;
+	padding-left: 9%;
+	padding-right: 0%;
+	padding-top: 2%;
+}
+	
+#article3-0 {
+	float: none;
+	width: 96%;
+	margin: 0;
+	padding-left: 2%;
+}	
+	
+#figure3-3 {
+	float: none;
+	width: 84%;
+	margin: 0;
+	padding-left: 8%;
+}
+	
+#article3-2 {
+	float: none;
+	width: 96%;
+	margin: 0;
+	padding-right: 0%;
+	padding-left: 2%;
+}
+	
+#paragraph4-1 {
+	float: none;
+	width: 88%;
+	margin: 0;
+	padding-left: 6%;
+}
+	
+#figure4-1 {
+	float: none;
+	width: 86%;
+	margin: 0%;
+	padding-right: 0%;
+	padding-left: 7%;
+	padding-top: 4%;
+}
+	
+#paragraph4-2 {
+	float: none;
+	width: 88%;
+	margin: 0;
+	padding-right: 0%;
+	padding-left: 6%;
+}
+	
+#figure4-2 {
+	float: none;
+	width: 86%;
+	margin: 0;
+	padding-left: 7%;
+	padding-top: 8%;
+}
+	
+#article4-1 {
+	float: none;
+	width: 96%;
+	margin: 0;
+	padding-left: 2%;
+}
+	
+#figure4-3 {
+	float: none;
+	width: 76%;
+	margin: 0;
+	padding-top: 4%;
+	padding-right: 0%;
+	padding-left: 12%;
 }
 	
 }
