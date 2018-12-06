@@ -1,7 +1,6 @@
 @keyframes nav {
-	0%{background-color: initial;}
-	
-	100%{background-color: darkred; }
+	from {font-size: 16px; font-weight: normal;}
+	to{font-size: 20px; font-weight: bold;}
 }
 
 header {
@@ -14,21 +13,28 @@ header {
 }
 
 nav {
+	display: block;
+	color: black;
 	padding-left: 20px;
 	padding-right: 20px;
 	padding-top: 5px;
 	padding-bottom: 5px;
   	font-size: 16px;
 	word-spacing: 8px;
+	text-decoration: none;
+	
 }
 nav:hover {
+	display: block;
+	color: black;
 	padding-left: 20px;
 	padding-right: 20px;
 	padding-top: 5px;
 	padding-bottom: 5px;
-  	font-size: 16px;
+  	font-size: 20px;
 	word-spacing: 8px;
-	
+	text-decoration: none;
+	font-weight: bold;
 }
 
 section {
@@ -399,6 +405,8 @@ header {
 	text-align: center;
 }
 nav {
+	display: block;
+	color: black;
 	padding-left: 20px;
 	padding-right: 20px;
 	padding-top: 5px;
@@ -407,6 +415,7 @@ nav {
 	word-spacing: 8px;
 	font-weight: bold;
 	text-align: center;
+	text-decoration: none;
 }
 footer {
 	color: black;
