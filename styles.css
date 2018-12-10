@@ -428,6 +428,8 @@ nav:hover {
 	word-spacing: 8px;
 	text-decoration: none;
 	font-weight: bold;
+	animation-name: none;
+	animation-duration: infinite;
 }
 
 footer {
